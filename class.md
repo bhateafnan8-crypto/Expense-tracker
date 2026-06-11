@@ -208,3 +208,32 @@ displayData.forEach((item) => {
                 </button>
 
             </div>
+
+
+            <div class="flex justify-between items-center p-3 sm:p-4">
+
+                <div class="flex items-center gap-3 sm:gap-6 text-sm">
+
+                    <p class="text-gray-500 text-xs sm:text-sm">
+                        ${item.date}
+                    </p>
+
+                    <p class="font-medium  truncate max-w-[90px] sm:max-w-[150px]">
+                        ${item.description}
+                    </p>
+
+                    <p class="text-gray-600 truncate max-w-[90px] sm:max-w-[150px]">
+                        ${item.selected}
+                    </p>
+
+                    <p class="font-bold text-blue-600">
+                        ₹${item.amount}
+                    </p>
+
+                </div>
+
+                <button class="deletebtn text-white bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md text-sm shrink-0">
+                    Delete
+                </button>
+
+            </div>

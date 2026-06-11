@@ -98,29 +98,29 @@ function render() {
     displayData.forEach((item) => {
         let rowDiv = document.createElement("div");
         rowDiv.innerHTML = `
-            <div class="flex justify-between items-center p-3 sm:p-4">
+            <div class="flex justify-between items-center p-3">
 
-                <div class="flex items-center gap-3 sm:gap-6 text-sm">
+                <div class="flex items-center gap-2 text-sm min-w-0">
 
-                    <p class="text-gray-500 text-xs sm:text-sm">
+                    <p class="text-gray-500 text-xs whitespace-nowrap">
                         ${item.date}
                     </p>
 
-                    <p class="font-medium  truncate max-w-[90px] sm:max-w-[150px]">
+                    <p class="font-medium max-w-[80px] truncate">
                         ${item.description}
                     </p>
 
-                    <p class="text-gray-600  truncate max-w-[90px] sm:max-w-[150px]">
+                    <p class="text-gray-600 whitespace-nowrap">
                         ${item.selected}
                     </p>
 
-                    <p class="font-bold text-blue-600">
+                    <p class="font-bold text-blue-600 whitespace-nowrap">
                         ₹${item.amount}
                     </p>
 
                 </div>
 
-                <button class="deletebtn text-white bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md text-sm shrink-0">
+                <button class="deletebtn text-white bg-red-500 px-3 py-2 rounded-md text-sm shrink-0">
                     Delete
                 </button>
 
