@@ -106,11 +106,11 @@ function render() {
                         ${item.date}
                     </p>
 
-                    <p class="font-medium truncate max-w-[90px] sm:max-w-[150px]">
+                    <p class="font-medium  truncate max-w-[90px] sm:max-w-[150px]">
                         ${item.description}
                     </p>
 
-                    <p class="text-gray-600">
+                    <p class="text-gray-600  truncate max-w-[90px] sm:max-w-[150px]">
                         ${item.selected}
                     </p>
 
