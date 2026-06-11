@@ -168,3 +168,19 @@ displayData.forEach((item) => {
             //     </div>
             //     <Button  class=" deletebtn text-white bg-red-500 py-1 px-2 rounded-md">Delete</Button>
             // </div>
+
+
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center p-3 gap-3 border-b">
+    
+                <div class="grid grid-cols-2 sm:flex sm:gap-6 text-sm">
+                    <p> ${item.date}</p>
+                    <p> ${item.description}</p>
+                    <p> ${item.selected}</p>
+                    <p>${item.amount}</p>
+                </div>
+
+                <button class="deletebtn bg-red-500 text-white px-3 py-2 rounded-md w-full sm:w-auto">
+                    Delete
+                </button>
+
+            </div>
