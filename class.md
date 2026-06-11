@@ -156,3 +156,15 @@ displayData.forEach((item) => {
 
     border border-indigo-200
     bg-blue-100 
+
+
+
+      // <div class="flex justify-between m-2 p-2  ">
+            //     <div class="flex gap-8 max-w-md">
+            //     <p>${item.date}</p>
+            //     <p>${item.description}</p>
+            //     <p>${item.selected}</p>
+            //     <p>${item.amount}</p>
+            //     </div>
+            //     <Button  class=" deletebtn text-white bg-red-500 py-1 px-2 rounded-md">Delete</Button>
+            // </div>
