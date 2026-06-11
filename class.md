@@ -184,3 +184,27 @@ displayData.forEach((item) => {
                 </button>
 
             </div>
+
+
+
+            <div class="flex justify-between items-center flex-wrap gap-2 p-2">
+
+                <div class="flex flex-wrap gap-2 sm:gap-4 md:gap-8 text-sm">
+
+                    <p>${item.date}</p>
+
+                    <p class="truncate max-w-[120px] sm:max-w-[200px]">
+                        ${item.description}
+                    </p>
+
+                    <p>${item.selected}</p>
+
+                    <p>₹${item.amount}</p>
+
+                </div>
+
+                <button class="deletebtn text-white bg-red-500 py-1 px-2 rounded-md shrink-0">
+                    Delete
+                </button>
+
+            </div>
